@@ -17,19 +17,28 @@
             android:text="0"
             android:textSize="30sp" />
 
+          <LinearLayout
+              android:gravity="center"
+              android:layout_margin="16dp"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
         <Button
             android:id="@+id/random_float_button"
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Random float"
             android:textAllCaps="true" />
 
         <Button
             android:id="@+id/random_integer_button"
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Random integer"
             android:textAllCaps="true" />
+          </LinearLayout>
+
+
       </LinearLayout>
 
         <TextView

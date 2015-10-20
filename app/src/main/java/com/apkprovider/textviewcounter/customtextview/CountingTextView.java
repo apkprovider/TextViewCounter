@@ -8,9 +8,6 @@ import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
 
-/**
- * Created by Jacek Kwiecień on 08.06.15.
- */
 public class CountingTextView extends TextView {
 
     private final String STATE = "state";
